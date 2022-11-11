@@ -37,7 +37,7 @@ body {
   border-radius: 20px;
   background: #f7f6f7;
   padding: 0.8rem 1rem;
-  color: #828282;
+  color: black;
   text-align: center;
   cursor: grab;
 }
@@ -63,8 +63,22 @@ body {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
 }
 
-.hold {
-  border: 5px solid #eee;
+.hold1 {
+  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+  color: white;
+  transition: 1s;
+}
+
+.hold2 {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+  color: white;
+  transition: 1s;
+}
+
+.hold3 {
+  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+  color: white;
+  transition: 1s;
 }
 
 .hide {
@@ -72,5 +86,6 @@ body {
 }
 
 .hovered {
-  border-top: 2px solid #8ed7ed;
+  border: 3px solid #ff85e4;
+  border-radius: 20px;
 }
